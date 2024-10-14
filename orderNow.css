@@ -1,0 +1,158 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  margin: 0px;
+  background-color: whitesmoke;
+}
+.head {
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.head img {
+  height: 42px;
+  width: 50px;
+  margin: auto;
+}
+.section1 {
+  width: 1200px;
+  height: 88px;
+  margin: 70px auto auto auto;
+  display: flex;
+  justify-content: center;
+}
+.section1 h1 {
+  height: 88px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+}
+.section1Text {
+  height: 39px;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 200px;
+}
+.section2 {
+  width: 700px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.outsideStarterPack {
+  width: 320px;
+  height: 400px;
+}
+.list {
+  margin: auto;
+  display: none;
+  position: absolute;
+  bottom: -100px;
+}
+.StarterPack {
+  width: 320px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5%;
+  transition: 0.5s;
+  position: relative;
+}
+.StarterPack:hover {
+  border: 3px solid #18ba51;
+  scale: 1.05;
+}
+
+.StarterPack p {
+  margin: auto;
+  font-weight: 500;
+  font-size: 24px;
+}
+.LuxuryPack {
+  width: 320px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5%;
+  transition: 0.5s;
+}
+.LuxuryPack:hover {
+  border: 3px solid #18ba51;
+  scale: 1.05;
+}
+.LuxuryPack:active {
+  transform: translate(20px);
+}
+.LuxuryPack p {
+  margin: auto;
+  font-weight: 500;
+  font-size: 24px;
+}
+.Contact {
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 300px;
+}
+.footer {
+  height: 228px;
+  background-color: black;
+  display: flex;
+  margin-top: 1000px;
+  justify-content: center;
+}
+.insideFooter {
+  width: 2000px;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.PineTour {
+  width: 81px;
+  height: 68px;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+}
+.social {
+  width: 500px;
+  height: 44px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Facebook {
+  background-color: gray;
+  width: 220px;
+  height: 44px;
+  border-radius: 5%;
+  margin-top: 12px;
+}
+.Instagram {
+  background-color: gray;
+  width: 220px;
+  height: 44px;
+  border-radius: 5%;
+  margin-top: 12px;
+}
+.insideFaceIg {
+  margin: auto auto auto 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.fa {
+  font-size: 26px;
+}
+.insideFaceIg p {
+  font-weight: 700;
+  font-size: 26px;
+  color: white;
+  margin: 7px auto auto -20px;
+}
